@@ -1,18 +1,8 @@
 {
-    "name": "fortigate-autoscale-aws-lambda-nic-attachment",
+    "name": "fortigate-autoscale-aws-fgt-asg-handler",
     "version": "1.0.0",
-    "description": "FortiGate Autoscale Project - AWS Lambda - Network Interface Attachment",
+    "description": "FortiGate Autoscale Project - AWS Lambda - FortiGate Auto Scaling Group Handler",
     "main": "index.js",
-    "scripts": {
-        "pretest": "eslint --fix .",
-        "test": "nyc mocha --recursive './test/mocha/*.js'"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fortinet/fortigate-autoscale"
-    },
-    "author": "fortinet",
-    "license": "MIT",
     "dependencies": {
         "async-cfn-response": "file:../aws_cfn_response",
         "fortigate-autoscale-aws": "file:../aws"
